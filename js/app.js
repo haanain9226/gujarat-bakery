@@ -13,7 +13,7 @@ const supabaseClient = window.supabase.createClient(
   SUPABASE_PUBLISHABLE_KEY,
 );
 
-const SHOP_WHATSAPP = "917226839226";
+const SHOP_WHATSAPP = "919723133486";
 
 const STORAGE_KEY = "gujarat_bakery_products_v1";
 
