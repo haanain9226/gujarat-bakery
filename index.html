@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f3eb">
+
+    <title>Gujarat Bakery | Freshly baked, made with love</title>
+
+    <meta
+        name="description"
+        content="Order birthday cakes, photo cakes, pastries and fresh bakery favourites from Gujarat Bakery."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="announcement">
+        FRESHLY BAKED • MADE FOR YOUR SPECIAL MOMENTS • ORDER ON WHATSAPP
+    </div>
+
+
+    <!-- HEADER -->
+    <header>
+        <div class="wrap nav">
+
+            <a class="brand" href="#">
+                Gujarat <i>Bakery</i>
+                <small>FRESH • LOCAL • DELICIOUS</small>
+            </a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#menu">Our menu</a>
+                <a href="#custom">Custom cakes</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            
+            <!-- SHOPPING BASKET -->
+            <button class="cart-open" id="cartOpen">
+                Basket <b id="cartCount">0</b>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-shade"></div>
+
+            <div class="wrap hero-inner">
+
+                <span class="eyebrow">
+                    YOUR NEIGHBOURHOOD BAKERY
+                </span>
+
+                <h1>
+                    A little sweetness<br>
+                    for every moment.
+                </h1>
+
+                <p>
+                    Beautiful cakes, delicious pastries and everyday bakery favourites —
+                    freshly prepared for your celebrations and cravings.
+                </p>
+
+                <a class="button light" href="#menu">
+                    Explore our menu <span>↗</span>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- TRUST SECTION -->
+        <section class="trust wrap">
+
+            <div>
+                <b>♡ Made with care</b>
+                <span>Fresh bakery favourites</span>
+            </div>
+
+            <div>
+                <b>✦ Celebrations made special</b>
+                <span>Custom cakes for your moments</span>
+            </div>
+
+            <div>
+                <b>⌂ Order your way</b>
+                <span>Home delivery or pickup</span>
+            </div>
+
+        </section>
+
+
+        <!-- MENU SECTION -->
+        <section class="menu-section" id="menu">
+
+            <div class="wrap">
+
+                <div class="section-title">
+
+                    <span class="eyebrow brown">
+                        FROM OUR OVEN
+                    </span>
+
+                    <h2>Explore the bakery</h2>
+
+                    <p>
+                        Choose your favourites and add them to your basket.
+                    </p>
+
+                </div>
+
+                <div id="categories" class="categories"></div>
+
+                <div id="productGrid" class="products"></div>
+
+            </div>
+        </section>
+
+
+        <!-- CUSTOM CAKES SECTION -->
+        <section class="custom wrap" id="custom">
+
+            <div class="custom-photo"></div>
+
+            <div>
+
+                <span class="eyebrow brown">
+                    MADE JUST FOR YOU
+                </span>
+
+                <h2>
+                    Your dream cake,<br>
+                    made personal.
+                </h2>
+
+                <p>
+                    Planning a birthday, anniversary or surprise?
+                    Choose a cake and tell us the flavour, weight, message and date.
+                    For photo cakes, share your photo with us on WhatsApp after sending your order.
+                </p>
+
+                <a href="#menu" class="button">
+                    Choose a cake ↗
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+
+            <div class="wrap contact-inner">
+
+                <span class="eyebrow">
+                    A SWEET HELLO
+                </span>
+
+                <h2>We'd love to bake for you.</h2>
+
+                <p>
+                    Order from anywhere in your village.
+                    We'll confirm availability, final pricing and delivery details directly with you.
+                </p>
+
+                <a
+                    class="button light"
+                    href="https://wa.me/917226839226"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Chat with Gujarat Bakery ↗
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="site-footer-inner wrap">
+
+            <!-- SECTION 1: BAKERY BRAND -->
+            <div class="footer-section">
+
+                <div class="footer-brand">
+                    Gujarat Bakery
+                </div>
+
+                <p class="footer-tagline">
+                    Freshly baked. Made with love.
+                </p>
+
+                <p>
+                    Delicious cakes, pastries and bakery favourites
+                    for every special moment.
+                </p>
+
+            </div>
+
+
+            <!-- SECTION 2: BAKERY LOCATION -->
+            <div class="footer-section">
+
+                <h3>Visit Our Bakery</h3>
+
+                <p class="footer-address">
+                    Tarapur Chokdi, next to Raaj Hotel,
+                    Tarapur, Anand, Gujarat – 388180.
+                </p>
+
+                <div class="footer-map">
+
+                    <iframe
+                        title="Gujarat Bakery location map"
+                        src="https://www.google.com/maps?q=Gujarat+Bakery,+Tarapur+Chokdi,+near+Raaj+Hotel,+Tarapur,+Anand,+Gujarat+388180&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+                <a
+                    class="footer-directions"
+                    href="https://www.google.com/maps/dir/?api=1&destination=Gujarat+Bakery%2C+Tarapur+Chokdi%2C+near+Raaj+Hotel%2C+Tarapur%2C+Anand%2C+Gujarat+388180"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Get Directions ↗
+                </a>
+
+            </div>
+
+
+            <!-- SECTION 3: CONTACT -->
+            <div class="footer-section">
+
+                <h3>Contact Us</h3>
+
+                <p>
+                    Have a question or want to order?
+                </p>
+
+                <a
+                    class="footer-contact-link"
+                    href="https://wa.me/917226839226"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    WhatsApp: +91 72268 39226
+                </a>
+
+                <div class="footer-admin">
+
+                    <button class="admin-link" id="adminOpen">
+                        Shop Admin
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- COPYRIGHT -->
+        <div class="footer-bottom">
+
+            © <span id="year"></span> Gujarat Bakery. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a
+        class="whatsapp"
+        href="https://wa.me/917226839226"
+        target="_blank"
+        rel="noopener"
+        aria-label="WhatsApp"
+    >
+        ☏
+    </a>
+
+
+    <!-- FLOATING CART BUTTON -->
+    <button
+        class="float-cart"
+        id="floatCart"
+        aria-label="Open basket"
+    >
+        🛍 <b id="floatCount">0</b>
+    </button>
+
+
+    <!-- BACKDROP -->
+    <div class="backdrop" id="backdrop"></div>
+
+
+    <!-- CART DRAWER -->
+    <aside class="drawer" id="cartDrawer">
+
+        <div class="drawer-head">
+
+            <h2>Your basket</h2>
+
+            <button class="x" id="cartClose">
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- BASKET ITEMS -->
+        <div class="basket-items" id="basketItems"></div>
+
+
+        <!-- CHECKOUT -->
+        <div class="checkout">
+
+            <div class="total">
+                <span>Estimated total</span>
+                <b id="basketTotal">₹0</b>
+            </div>
+
+
+            <!-- ORDER FORM -->
+            <form id="orderForm">
+
+                <div class="form-grid">
+
+                    <label>
+                        Your name *
+                        <input
+                            id="buyerName"
+                            required
+                            maxlength="80"
+                            placeholder="Full name"
+                        >
+                    </label>
+
+
+                    <label>
+                        Phone number *
+                        <input
+                            id="buyerPhone"
+                            required
+                            type="tel"
+                            pattern="[0-9+() -]{8,18}"
+                            placeholder="Mobile number"
+                        >
+                    </label>
+
+
+                    <label>
+                        Order type *
+                        <select id="orderType">
+                            <option>Home delivery</option>
+                            <option>Bakery pickup</option>
+                        </select>
+                    </label>
+
+
+                    <label class="wide" id="addressWrap">
+                        Delivery address / village *
+                        <input
+                            id="buyerAddress"
+                            placeholder="House, street, village and landmark"
+                        >
+                    </label>
+
+
+                    <label>
+                        Required date *
+                        <input
+                            id="requiredDate"
+                            type="date"
+                            required
+                        >
+                    </label>
+
+
+                    <label>
+                        Preferred time
+                        <input
+                            id="requiredTime"
+                            type="time"
+                        >
+                    </label>
+
+
+                    <label class="wide">
+                        Cake message
+                        <input
+                            id="cakeText"
+                            placeholder="e.g. Happy Birthday!"
+                        >
+                    </label>
+
+
+                    <label class="wide">
+                        Flavour, weight or special instructions
+                        <textarea
+                            id="orderNotes"
+                            placeholder="e.g. Chocolate, 1 kg, less sugar..."
+                        ></textarea>
+                    </label>
+
+                </div>
+
+
+                <p class="hint">
+                    Prices are indicative until confirmed by the bakery.
+                    The bakery will contact you to confirm your order
+                    and payment details.
+                </p>
+
+                <button class="button full" type="submit">
+                    Send order on WhatsApp ↗
+                </button>
+
+                <p
+                    id="orderStatus"
+                    class="status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ADMIN MODAL -->
+    <div class="admin-modal" id="adminModal" aria-hidden="true">
+
+        <div class="admin-panel">
+
+            <!-- ADMIN HEADER -->
+            <div class="admin-head">
+
+                <div>
+                    <span class="eyebrow brown">
+                        STORE MANAGEMENT
+                    </span>
+
+                    <h2>Bakery admin</h2>
+                </div>
+
+                <button class="x" id="adminClose">
+                    ×
+                </button>
+
+            </div>
+
+
+            <!-- ADMIN LOGIN -->
+<div id="adminLogin">
+
+    <p>
+        Sign in with your authorized bakery admin account.
+    </p>
+
+    <label>
+        Admin Email
+        <input
+            id="adminEmail"
+            type="email"
+            placeholder="Enter admin email"
+            autocomplete="username"
+            required
+        >
+    </label>
+
+    <label>
+        Admin Password
+        <input
+            id="adminPassword"
+            type="password"
+            placeholder="Enter password"
+            autocomplete="current-password"
+            required
+        >
+    </label>
+
+    <button class="button full" id="loginBtn" type="button">
+        Login to Admin Panel
+    </button>
+
+    <p id="loginStatus" class="hint" aria-live="polite"></p>
+
+</div>
+
+            <!-- ADMIN TOOLS -->
+            <div id="adminTools" hidden>
+
+                <div class="admin-actions">
+
+                    <button class="button" id="newProduct">
+                        ＋ Add product
+                    </button>
+
+                    <button class="outline" id="exportProducts">
+                        Export catalogue
+                    </button>
+
+                    <label class="outline import-label">
+                        Import catalogue
+                        <input
+                            id="importProducts"
+                            type="file"
+                            accept="application/json"
+                        >
+                    </label>
+
+                </div>
+
+
+                <!-- PRODUCT FORM -->
+                <form id="productForm" hidden>
+
+                    <h3 id="formTitle">
+                        Add product
+                    </h3>
+
+                    <input
+                        type="hidden"
+                        id="editId"
+                    >
+
+                    <div class="form-grid">
+
+                        <label>
+                            Product name *
+                            <input id="pName" required>
+                        </label>
+
+
+                        <label>
+                            Category *
+                            <select id="pCategory">
+                                <option>Birthday Cakes</option>
+                                <option>Photo Cakes</option>
+                                <option>Pastries</option>
+                                <option>Bread, Biscuits & Toast</option>
+                                <option>Khari, Puffs & Patties</option>
+                            </select>
+                        </label>
+
+
+                        <label>
+                            Price (₹) *
+                            <input
+                                id="pPrice"
+                                type="number"
+                                min="0"
+                                required
+                            >
+                        </label>
+
+
+                        <label>
+                            Unit / size
+                            <input
+                                id="pUnit"
+                                placeholder="1 kg / per piece"
+                            >
+                    </label>
+
+                        <label class="wide">
+    Upload Product Image *
+    <input
+        id="pImageFile"
+        type="file"
+        accept="image/png,image/jpeg,image/webp"
+    >
+</label>
+
+<input
+    id="pImage"
+    type="hidden"
+    required
+>
+
+<p id="imageUploadStatus" class="hint wide"></p>
+
+                        <label class="wide">
+                            Short description
+                            <input id="pDescription">
+                        </label>
+
+                    </div>
+
+
+                    <div class="admin-actions">
+
+                        <button class="button" type="submit">
+                            Save product
+                        </button>
+
+                        <button
+                            class="outline"
+                            type="button"
+                            id="cancelProduct"
+                        >
+                            Cancel
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <!-- CURRENT CATALOGUE -->
+                <h3>Current catalogue</h3>
+
+                <div
+                    id="adminProductList"
+                    class="admin-list"
+                ></div>
+
+
+                <button class="outline full" id="logoutBtn">
+                    Lock admin
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SUPABASE LIBRARY -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+     <!-- WEBSITE JAVASCRIPT -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
