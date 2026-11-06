@@ -1012,4 +1012,33 @@ header {
   .form-grid {
     gap: 6px;
   }
+
+  /* MOBILE PRODUCT BUTTON FIX */
+@media (max-width: 600px) {
+  .product-foot {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    min-width: 0;
+    gap: 12px;
+  }
+
+  .product-foot b {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .product-foot .add {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    white-space: nowrap;
+  }
+}
 }
